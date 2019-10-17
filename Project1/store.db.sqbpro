@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/home/ken0018/Academics/COMP3700/Project1/store.db" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><current_tab id="0"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1523"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="Purchase"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">CREATE TABLE &quot;Purchase&quot; (
+	&quot;Purchase&quot;	INTEGER,
+	&quot;Product&quot;	INTEGER,
+	&quot;Customer&quot;	INTEGER,
+	&quot;Quantity&quot;	INTEGER,
+	&quot;Price&quot;	NUMERIC,
+	&quot;Cost&quot;	NUMERIC,
+	&quot;Tax&quot;	NUMERIC,
+	&quot;Total&quot;	NUMERIC,
+	&quot;Date&quot;	TEXT,
+	PRIMARY KEY(&quot;Purchase&quot;)
+);</sql><sql name="SQL 1">CREATE TABLE &quot;Customers&quot; (
+	&quot;CustomerID&quot;	NUMERIC,
+	&quot;Name&quot;	TEXT,
+	&quot;Address&quot;	TEXT,
+	&quot;Phone&quot;	TEXT,
+	&quot;PaymentInfo&quot;	TEXT,
+	PRIMARY KEY(&quot;CustomerID&quot;)
+);</sql><current_tab id="1"/></tab_sql></sqlb_project>
